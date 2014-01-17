@@ -1,0 +1,1418 @@
+#special-sectionOverview html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#special-sectionOverview .bp-reset-element, #special-sectionOverview body, #special-sectionOverview h1, #special-sectionOverview h2, #special-sectionOverview h3, #special-sectionOverview h4, #special-sectionOverview h5, #special-sectionOverview h6, #special-sectionOverview article, #special-sectionOverview aside, #special-sectionOverview details, #special-sectionOverview figcaption, #special-sectionOverview figure, #special-sectionOverview footer, #special-sectionOverview header, #special-sectionOverview hgroup, #special-sectionOverview menu, #special-sectionOverview nav, #special-sectionOverview section, #special-sectionOverview summary, #special-sectionOverview blockquote, #special-sectionOverview q, #special-sectionOverview th, #special-sectionOverview td, #special-sectionOverview caption, #special-sectionOverview table,
+#special-sectionOverview div, #special-sectionOverview span, #special-sectionOverview object, #special-sectionOverview iframe, #special-sectionOverview p,
+#special-sectionOverview pre, #special-sectionOverview a, #special-sectionOverview abbr, #special-sectionOverview acronym, #special-sectionOverview address,
+#special-sectionOverview code, #special-sectionOverview del, #special-sectionOverview dfn, #special-sectionOverview em, #special-sectionOverview img,
+#special-sectionOverview dl, #special-sectionOverview dt, #special-sectionOverview dd, #special-sectionOverview ol, #special-sectionOverview ul, #special-sectionOverview li, #special-sectionOverview fieldset,
+#special-sectionOverview form, #special-sectionOverview label, #special-sectionOverview legend,
+#special-sectionOverview caption, #special-sectionOverview tbody, #special-sectionOverview tfoot, #special-sectionOverview thead, #special-sectionOverview tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+#special-sectionOverview article, #special-sectionOverview aside, #special-sectionOverview details, #special-sectionOverview figcaption, #special-sectionOverview figure, #special-sectionOverview footer, #special-sectionOverview header, #special-sectionOverview hgroup, #special-sectionOverview menu, #special-sectionOverview nav, #special-sectionOverview section, #special-sectionOverview summary {
+  display: block;
+}
+#special-sectionOverview blockquote, #special-sectionOverview q {
+  quotes: "" "";
+}
+#special-sectionOverview blockquote:before, #special-sectionOverview blockquote:after, #special-sectionOverview q:before, #special-sectionOverview q:after {
+  content: "";
+}
+#special-sectionOverview th, #special-sectionOverview td, #special-sectionOverview caption {
+  float: none !important;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+#special-sectionOverview table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+#special-sectionOverview a img {
+  border: none;
+}
+
+#special-sectionOverview {
+  font-size: 17px;
+  font-family: "Helvetica", "Arial", "verdana";
+  text-decoration: none;
+  position: relative;
+  min-width: 960px;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+#special-sectionOverview a:focus, #special-sectionOverview a:active {
+  outline: none;
+}
+#special-sectionOverview h2 {
+  font-size: 3.52941em;
+  margin-bottom: 18px;
+  font-family: "Lato","Helvetica","Arial", "verdana";
+  line-height: 1em;
+  text-transform: Uppercase;
+  letter-spacing: -3px;
+}
+#special-sectionOverview h3 {
+  font-size: 1.70588em;
+  margin-bottom: 14px;
+  font-family: "Lato","Istok Web","Helvetica", "Arial", "verdana";
+  line-height: 1.1em;
+  letter-spacing: -2px;
+}
+#special-sectionOverview h4 {
+  font-size: 0.76471em;
+  color: #828282;
+}
+#special-sectionOverview li {
+  list-style: none;
+  list-style-image: none;
+}
+#special-sectionOverview p {
+  line-height: 1.41176em;
+  font-family: "Helvetica", "Arial", "verdana";
+}
+#special-sectionOverview h1, #special-sectionOverview h2, #special-sectionOverview h3, #special-sectionOverview p {
+  position: relative;
+}
+#special-sectionOverview h1, #special-sectionOverview h2, #special-sectionOverview h3 {
+  background-repeat: no-repeat;
+}
+#special-sectionOverview h3 {
+  height: 30px;
+}
+#special-sectionOverview .feature {
+  position: relative;
+  height: 630px;
+  overflow: hidden;
+}
+#special-sectionOverview nav.arrow {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 50%;
+  height: 38px;
+  z-index: 300;
+}
+#special-sectionOverview nav.arrow a {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  margin-left: -4px;
+  float: left;
+  background-image: url("../img/common/arrow.png");
+  background-position: 0px 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+#special-sectionOverview nav.arrow a.prev {
+  left: 50px;
+}
+#special-sectionOverview nav.arrow a.prev:hover, #special-sectionOverview nav.arrow a.prev.active {
+  background-position: 0px -44px;
+}
+#special-sectionOverview nav.arrow a.next {
+  background-position: -45px 0px;
+  right: 35px;
+}
+#special-sectionOverview nav.arrow a.next:hover, #special-sectionOverview nav.arrow a.next.active {
+  background-position: -45px -44px;
+}
+#special-sectionOverview nav.pager {
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 25px;
+  left: 0px;
+  height: 12px;
+  z-index: 400;
+}
+#special-sectionOverview nav.pager a {
+  width: 12px;
+  height: 12px;
+  margin-left: 23px;
+  float: left;
+  background-image: url("../img/common/radius.png");
+  background-position: 0px 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+#special-sectionOverview nav.pager a.first {
+  margin-left: 0;
+}
+#special-sectionOverview nav.pager a:hover, #special-sectionOverview nav.pager a.active {
+  background-position: 0px -12px;
+}
+#special-sectionOverview nav.pager.white a {
+  background-position: -12px 0px;
+}
+#special-sectionOverview nav.pager.white a:hover, #special-sectionOverview nav.pager.white a.active {
+  background-position: -12px -12px;
+}
+#special-sectionOverview .inner {
+  position: relative;
+  width: 960px;
+  z-index: 0;
+  display: block;
+  margin: 0 auto;
+  /*background-color:rgba(0,0,0,0.5);*/
+}
+#special-sectionOverview .inner-content {
+  position: relative;
+  z-index: 1;
+}
+#special-sectionOverview .pic {
+  position: absolute;
+}
+#special-sectionOverview .note {
+  font-size: 0.64706em;
+  line-height: 1.47059em;
+}
+#special-sectionOverview #custom-wrap {
+  position: relative;
+  width: 100%;
+}
+#special-sectionOverview #custom-wrap .page {
+  position: relative;
+  margin: 0 auto;
+  min-width: 960px;
+  overflow: hidden;
+  *zoom: 1;
+}
+#special-sectionOverview #custom-wrap .page .tip {
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+#special-sectionOverview #custom-wrap .page ul {
+  height: 630px;
+  position: relative;
+}
+#special-sectionOverview #custom-wrap .page ul li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF );
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  -o-transition-property: left;
+  transition-property: left;
+}
+#special-sectionOverview #custom-wrap .page ul li.active {
+  height: 630px;
+  left: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF );
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  -o-transition-property: left;
+  transition-property: left;
+}
+#special-sectionOverview #custom-wrap .page ul li.next {
+  height: 630px;
+  left: 100%;
+}
+#special-sectionOverview #custom-wrap .page ul li.prev {
+  height: 630px;
+  left: -100%;
+}
+#special-sectionOverview #custom-wrap .page ul li.prepare {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}
+#special-sectionOverview #custom-wrap .page ul.bg {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#special-sectionOverview #custom-wrap .page ul.bg li {
+  height: 630px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+#special-sectionOverview #custom-wrap .page ul.bg li.first {
+  display: block;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF );
+}
+#special-sectionOverview #custom-wrap .page ul.content {
+  z-index: 200;
+}
+#special-sectionOverview #custom-wrap nav.shortcut {
+  position: fixed;
+  top: 25%;
+  left: 0;
+  z-index: 5000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul {
+  width: 51px;
+  height: 380px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li {
+  width: 45px;
+  height: 51px;
+  display: block;
+  border-bottom: 1px solid #e8e8e8;
+  white-space: nowrap;
+  background: #fff;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
+  background-image: -webkit-linear-gradient(left, #ffffff, #f2f2f2);
+  background-image: -moz-linear-gradient(left, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(left, #ffffff, #f2f2f2);
+  background-image: linear-gradient(left, #ffffff, #f2f2f2);
+  overflow: hidden;
+  font-size: 18px;
+  font-family: "Istok Web";
+  position: absolute;
+  -webkit-transition-property: width;
+  -moz-transition-property: width;
+  -o-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li a {
+  height: 100%;
+  display: block;
+  padding: 0 25px 0 0;
+  line-height: 50px;
+  vertical-align: middle;
+  color: #493f39;
+  min-width: 200px \9;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li a .icon {
+  display: inline-block;
+  width: 45px;
+  height: 100%;
+  margin-right: 15px;
+  background: url(../img/common/nav/main-nav-bg.png) no-repeat;
+  vertical-align: middle;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m1 {
+  height: 50px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  top: 0;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m1 a .icon {
+  background-position: 0 0;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m1 a:hover .icon {
+  background-position: -45px 0;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m1.active a .icon, #special-sectionOverview #custom-wrap nav.shortcut ul li.m1.on a .icon {
+  background-position: -45px 0;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m2 {
+  top: 51px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m2:hover, #special-sectionOverview #custom-wrap nav.shortcut ul li.m2.active {
+  width: 145px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m2 a .icon {
+  background-position: 0 -51px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m2 a:hover .icon {
+  background-position: -45px -51px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m2.active a .icon, #special-sectionOverview #custom-wrap nav.shortcut ul li.m2.on a .icon {
+  background-position: -45px -51px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m3 {
+  top: 103px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m3:hover, #special-sectionOverview #custom-wrap nav.shortcut ul li.m3.active {
+  width: 145px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m3 a .icon {
+  background-position: 0 -103px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m3 a:hover .icon {
+  background-position: -45px -103px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m3.active a .icon, #special-sectionOverview #custom-wrap nav.shortcut ul li.m3.on a .icon {
+  background-position: -45px -103px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m4 {
+  top: 155px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m4:hover, #special-sectionOverview #custom-wrap nav.shortcut ul li.m4.active {
+  width: 145px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m4 a .icon {
+  background-position: 0 -155px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m4 a:hover .icon {
+  background-position: -45px -155px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m4.active a .icon, #special-sectionOverview #custom-wrap nav.shortcut ul li.m4.on a .icon {
+  background-position: -45px -155px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m5 {
+  top: 207px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m5:hover, #special-sectionOverview #custom-wrap nav.shortcut ul li.m5.active {
+  width: 166px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m5 a .icon {
+  background-position: 0 -207px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m5 a:hover .icon {
+  background-position: -45px -207px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m5.active a .icon, #special-sectionOverview #custom-wrap nav.shortcut ul li.m5.on a .icon {
+  background-position: -45px -207px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m6 {
+  top: 259px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m6:hover, #special-sectionOverview #custom-wrap nav.shortcut ul li.m6.active {
+  width: 153px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m6 a .icon {
+  background-position: 0 -259px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m6 a:hover .icon {
+  background-position: -45px -259px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m6.active a .icon, #special-sectionOverview #custom-wrap nav.shortcut ul li.m6.on a .icon {
+  background-position: -45px -259px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m7 {
+  top: 311px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m7:hover, #special-sectionOverview #custom-wrap nav.shortcut ul li.m7.active {
+  width: 186px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m7 a .icon {
+  background-position: 0 -311px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m7 a:hover .icon {
+  background-position: -45px -311px;
+}
+#special-sectionOverview #custom-wrap nav.shortcut ul li.m7.active a .icon, #special-sectionOverview #custom-wrap nav.shortcut ul li.m7.on a .icon {
+  background-position: -45px -311px;
+}
+#special-sectionOverview #custom-wrap #index {
+  height: 500px;
+  background: url("../img/index/index-bg.jpg") center 0 no-repeat #49a4eb;
+}
+#special-sectionOverview #custom-wrap #index .inner-content {
+  padding-top: 90px;
+  padding-left: 30px;
+}
+#special-sectionOverview #custom-wrap #index .inner-content h1 {
+  margin-bottom: 20px;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('../img/../img/index/asus-memo-pad-hd7.png?1369980485');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 292px;
+  height: 52px;
+  /*background-image:url(../img/index/asus-memo-pad-hd7.png);*/
+}
+#special-sectionOverview #custom-wrap #index .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 320px;
+  width: 350px;
+}
+#special-sectionOverview #custom-wrap #index ul {
+  display: inline;
+  position: absolute;
+  top: 321px;
+  left: 28px;
+}
+#special-sectionOverview #custom-wrap #index ul li {
+  width: 160px;
+  height: 130px;
+  position: relative;
+  overflow: hidden;
+  display: inline;
+  float: left;
+  margin-right: 20px;
+}
+#special-sectionOverview #custom-wrap #index ul li a {
+  display: block;
+  position: absolute;
+  text-decoration: none;
+}
+#special-sectionOverview #custom-wrap #index ul li a img {
+  display: block;
+}
+#special-sectionOverview #custom-wrap #index ul li a b {
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 60px;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('../img/../img/index/play-icon.png?1372124180');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 51px;
+  height: 51px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transition-timing-function: ease-out-in;
+  -moz-transition-timing-function: ease-out-in;
+  -o-transition-timing-function: ease-out-in;
+  transition-timing-function: ease-out-in;
+}
+#special-sectionOverview #custom-wrap #index ul li a p {
+  color: #364120;
+}
+#special-sectionOverview #custom-wrap #index ul li a:hover b {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF );
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+#special-sectionOverview #custom-wrap #index .body {
+  right: 0;
+  top: 124px;
+}
+#special-sectionOverview #custom-wrap #beauty {
+  color: #afbb01;
+}
+#special-sectionOverview #custom-wrap #beauty .bg li {
+ /*
+&.studio{
+	background: url("../img/beauty/beauty-bg.jpg") center top no-repeat #fff0bc;
+}*/
+}
+#special-sectionOverview #custom-wrap #beauty .bg li.kv {
+  background: url("../img/beauty/beauty-bg.jpg") center top no-repeat #fff2c6;
+}
+#special-sectionOverview #custom-wrap #beauty .bg li.design {
+  background: url("../img/beauty/beauty-bg.jpg") center top no-repeat #fff2c6;
+}
+#special-sectionOverview #custom-wrap #beauty .bg li.display {
+  background: url("../img/beauty/beauty-bg.jpg") center top no-repeat #fff2c6;
+}
+#special-sectionOverview #custom-wrap #beauty .bg li.camera {
+  background: url("../img/beauty/camera-bg.jpg") center top no-repeat #f2fdd3;
+}
+#special-sectionOverview #custom-wrap #beauty .bg li.story-studio {
+  background: url("../img/beauty/beauty-bg.jpg") center top no-repeat #fff2c6;
+}
+#special-sectionOverview #custom-wrap #beauty .bg li.splendid {
+  background: url("../img/beauty/ASUS-splendid-bg.png") center top no-repeat #d3f3ff;
+}
+#special-sectionOverview #custom-wrap #beauty .content .kv .inner-content {
+  padding-top: 140px;
+  padding-left: 126px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .kv .inner-content h2 {
+  color: #afbb01;
+  height: 48px;
+  /*background-image:url(../img/beauty/beauty.png);*/
+}
+#special-sectionOverview #custom-wrap #beauty .content .kv .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 320px;
+  width: 250px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .kv img {
+  right: 140px;
+  top: 95px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .design .inner-content {
+  padding-top: 190px;
+  padding-left: 650px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .design .inner-content h3 {
+  color: #afbb01;
+}
+#special-sectionOverview #custom-wrap #beauty .content .design .inner-content p {
+  width: 240px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .design img {
+  left: 90px;
+  top: 0;
+}
+#special-sectionOverview #custom-wrap #beauty .content .display .inner-content {
+  padding-top: 126px;
+  padding-left: 138px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .display .inner-content h3 {
+  color: #afbb01;
+  /*background-image:url(../img/beauty/HD-IPS-Panel.png);*/
+}
+#special-sectionOverview #custom-wrap #beauty .content .display .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 230px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .display .ips {
+  left: 250px;
+  top: 145px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .display .ips-compare {
+  left: 713px;
+  top: 442px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .camera .inner-content {
+  padding-top: 145px;
+  padding-left: 574px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .camera .inner-content h3 {
+  color: #afbb01;
+  /*background-image:url(../img/beauty/Camera-for-Every-Occasion.png);*/
+}
+#special-sectionOverview #custom-wrap #beauty .content .camera .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 320px;
+  width: 300px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .camera .pic {
+  left: 126px;
+  top: 102px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .story-studio .inner-content {
+  padding-top: 70px;
+  padding-left: 126px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .story-studio .inner-content .studio {
+  position: absolute;
+  top: 70px;
+  left: 126px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .story-studio .inner-content .studio p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 160px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .story-studio .inner-content .studio h3 {
+  color: #afbb01;
+  /*background-image:url(../img/beauty/ASUS-Studio.png);*/
+}
+#special-sectionOverview #custom-wrap #beauty .content .story-studio .inner-content .story {
+  position: absolute;
+  top: 90px;
+  left: 543px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .story-studio .inner-content .story p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 290px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .story-studio .inner-content .story h3 {
+  color: #afbb01;
+  /*background-image:url(../img/beauty/ASUS-Story.png);*/
+}
+#special-sectionOverview #custom-wrap #beauty .content .story-studio .pic {
+  top: 126px;
+  left: 236px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .splendid .inner-content {
+  padding-top: 180px;
+  padding-left: 126px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .splendid .inner-content h3 {
+  color: #afbb01;
+  /*background-image:url(../img/beauty/ASUS-Splendid.png);*/
+}
+#special-sectionOverview #custom-wrap #beauty .content .splendid .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 280px;
+}
+#special-sectionOverview #custom-wrap #beauty .content .splendid .pic {
+  left: 388px;
+  top: 35px;
+}
+#special-sectionOverview #custom-wrap #sound {
+  color: #ebebeb;
+}
+#special-sectionOverview #custom-wrap #sound .bg li.kv {
+  background: url(../img/sound/sound-bg.jpg) center no-repeat #05172f;
+}
+#special-sectionOverview #custom-wrap #sound .bg li.sonicmaster {
+  background: url(../img/sound/sonicmaster-bg.jpg) center no-repeat #04162c;
+}
+#special-sectionOverview #custom-wrap #sound .bg li.speakers {
+  background: url(../img/sound/speakers-bg.jpg) center no-repeat #213e5e;
+}
+#special-sectionOverview #custom-wrap #sound .content .kv h2 {
+  color: #ebebeb;
+  height: 49px;
+  /*background-image:url(../img/sound/Sound.png);*/
+}
+#special-sectionOverview #custom-wrap #sound .content .kv .inner-content {
+  padding-left: 126px;
+  padding-top: 150px;
+}
+#special-sectionOverview #custom-wrap #sound .content .kv .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 260px;
+}
+#special-sectionOverview #custom-wrap #sound .content .kv .pic {
+  left: 374px;
+  top: 0;
+}
+#special-sectionOverview #custom-wrap #sound .content .sonicmaster .inner-content {
+  padding-left: 600px;
+  padding-top: 233px;
+}
+#special-sectionOverview #custom-wrap #sound .content .sonicmaster .inner-content h3 {
+  color: #ebebeb;
+  /*background-image:url(../img/sound/ASUS-SonicMaster.png);*/
+}
+#special-sectionOverview #custom-wrap #sound .content .sonicmaster .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 320px;
+}
+#special-sectionOverview #custom-wrap #sound .content .sonicmaster .pic {
+  left: 86px;
+  top: 55px;
+}
+#special-sectionOverview #custom-wrap #sound .content .speakers .inner-content {
+  padding-left: 126px;
+  padding-top: 156px;
+}
+#special-sectionOverview #custom-wrap #sound .content .speakers .inner-content h3 {
+  color: #ebebeb;
+  /*background-image:url(../img/sound/Dual-Speakers.png);*/
+}
+#special-sectionOverview #custom-wrap #sound .content .speakers .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 280px;
+  width: 260px;
+}
+#special-sectionOverview #custom-wrap #sound .content .speakers .pic {
+  left: 207px;
+  top: 143px;
+}
+#special-sectionOverview #custom-wrap #touch .touch {
+  background-color: #fef9fc;
+  color: #ff39a0;
+}
+#special-sectionOverview #custom-wrap #touch .touch .inner-content {
+  padding-left: 625px;
+  padding-top: 254px;
+}
+#special-sectionOverview #custom-wrap #touch .touch .inner-content h2 {
+  color: #ff39a0;
+  height: 49px;
+  /*background-image:url(../img/touch/Touch.png);*/
+}
+#special-sectionOverview #custom-wrap #touch .touch .inner-content h3 {
+  color: #ff39a0;
+  /*background-image:url(../img/touch/10-point-Multi-Touch.png);*/
+}
+#special-sectionOverview #custom-wrap #touch .touch .inner-content p {
+  width: 250px;
+}
+#special-sectionOverview #custom-wrap #touch .touch .pic {
+  left: 84px;
+  top: 0px;
+}
+#special-sectionOverview #custom-wrap #response .bg li.kv {
+  background: url(../img/response/response-bg.jpg) center no-repeat #04162c;
+}
+#special-sectionOverview #custom-wrap #response .bg li.cpu {
+  background: url(../img/response/cpu-bg.jpg) center no-repeat #14181b;
+}
+#special-sectionOverview #custom-wrap #response .bg li.gps {
+  background: #03162c;
+}
+#special-sectionOverview #custom-wrap #response .content .kv {
+  color: #ebebeb;
+}
+#special-sectionOverview #custom-wrap #response .content .kv .inner-content {
+  padding-left: 637px;
+  padding-top: 182px;
+}
+#special-sectionOverview #custom-wrap #response .content .kv .inner-content h2 {
+  color: #ebebeb;
+  height: 49px;
+  /* background-image:url(../img/response/Response.png);*/
+}
+#special-sectionOverview #custom-wrap #response .content .kv .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 320px;
+}
+#special-sectionOverview #custom-wrap #response .content .kv .pic {
+  left: -110px;
+  top: 120px;
+}
+#special-sectionOverview #custom-wrap #response .content .cpu {
+  color: #ebebeb;
+}
+#special-sectionOverview #custom-wrap #response .content .cpu .inner-content {
+  padding-left: 126px;
+  padding-top: 134px;
+}
+#special-sectionOverview #custom-wrap #response .content .cpu .inner-content h3 {
+  color: #ebebeb;
+  /*background-image:url(../img/response/Quad-Core-CPU.png);*/
+}
+#special-sectionOverview #custom-wrap #response .content .cpu .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 210px;
+}
+#special-sectionOverview #custom-wrap #response .content .cpu .pic {
+  left: 250px;
+  top: 235px;
+}
+#special-sectionOverview #custom-wrap #response .content .gps {
+  color: #ebebeb;
+}
+#special-sectionOverview #custom-wrap #response .content .gps .inner-content {
+  padding-left: 126px;
+  padding-top: 148px;
+}
+#special-sectionOverview #custom-wrap #response .content .gps .inner-content h3 {
+  color: #ebebeb;
+  /*background-image:url(../img/response/GPS-to-Find-Your-Way.png);*/
+}
+#special-sectionOverview #custom-wrap #response .content .gps .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 280px;
+  width: 260px;
+}
+#special-sectionOverview #custom-wrap #response .content .gps .googlemap {
+  left: 300px;
+  top: 265px;
+}
+#special-sectionOverview #custom-wrap #response .content .gps .clock {
+  left: 620px;
+  top: 0px;
+}
+#special-sectionOverview #custom-wrap #ubiquity {
+  color: #464646;
+}
+#special-sectionOverview #custom-wrap #ubiquity .bg li.kv {
+  background: url(../img/ubiquity/ubiquity-bg.jpg) center 0 no-repeat #65d4ff;
+}
+#special-sectionOverview #custom-wrap #ubiquity .bg li.battery {
+  background: url(../img/ubiquity/battery-bg.jpg) center no-repeat #4e95bf;
+}
+#special-sectionOverview #custom-wrap #ubiquity .bg li.sd-slot {
+  background: url(../img/ubiquity/sd-slot-bg.jpg) center no-repeat #66d4ff;
+}
+#special-sectionOverview #custom-wrap #ubiquity .bg li.thin {
+  background: url(../img/ubiquity/thin-bg.png) center no-repeat #65d4ff;
+}
+#special-sectionOverview #custom-wrap #ubiquity .bg li.webstorage {
+  background: #66d4ff;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .kv .inner-content {
+  padding-left: 575px;
+  padding-top: 182px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .kv .inner-content h2 {
+  height: 58px;
+  color: #464646;
+  /*background-image:url(../img/ubiquity/Ubiquity.png);*/
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .kv .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 320px;
+  width: 300px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .kv .pic {
+  left: 40px;
+  top: 60px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .battery .inner-content {
+  padding-left: 575px;
+  padding-top: 175px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .battery .inner-content h3 {
+  height: 56px;
+  width: 180px;
+  color: #464646;
+  /*background-image:url(../img/ubiquity/Long-Battery-Life--at-10-Hours.png);*/
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .battery .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 246px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .battery .pic {
+  left: 55px;
+  top: 27px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .sd-slot .inner-content {
+  padding-left: 126px;
+  padding-top: 95px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .sd-slot .inner-content h3 {
+  width: 260px;
+  height: 58px;
+  color: #464646;
+  /*background-image:url(../img/ubiquity/Micro-SD-Slot-for-up-to-32G-Expendability.png);*/
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .sd-slot .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 260px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .sd-slot .inner-content .note {
+  margin-top: 212px;
+  text-indent: -0.5em;
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 280px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .sd-slot .pic {
+  left: 260px;
+  top: 77px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .thin .inner-content {
+  padding-left: 500px;
+  padding-top: 170px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .thin .inner-content h3 {
+  color: #464646;
+  /*background-image:url(../img/ubiquity/Super-Light-and-Thin.png);*/
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .thin .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 280px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .thin .pic {
+  left: 80px;
+  top: 90px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .webstorage .inner-content {
+  padding-left: 126px;
+  padding-top: 105px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .webstorage .inner-content h3 {
+  color: #464646;
+  /*background-image:url(../img/ubiquity/ASUS-Webstorage.png);*/
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .webstorage .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 230px;
+}
+#special-sectionOverview #custom-wrap #ubiquity .content .webstorage .pic {
+  left: 230px;
+  top: 17px;
+}
+#special-sectionOverview #custom-wrap #app {
+  color: #464646;
+}
+#special-sectionOverview #custom-wrap #app h2 {
+  height: 44px;
+  color: #ff39a0;
+  /*background-image:url(../img/app/Applications.png);*/
+}
+#special-sectionOverview #custom-wrap #app .bg li.kv {
+  background: url(../img/app/supernote-bg.jpg) center no-repeat #edff73;
+}
+#special-sectionOverview #custom-wrap #app .bg li.buddybuzz {
+  background: #f5ffb0;
+}
+#special-sectionOverview #custom-wrap #app .content .supernote .inner-content {
+  padding-left: 112px;
+  padding-top: 131px;
+}
+#special-sectionOverview #custom-wrap #app .content .supernote .inner-content h2 {
+  color: #ff39a0;
+  width: 356px;
+}
+#special-sectionOverview #custom-wrap #app .content .supernote .inner-content h3 {
+  color: #ff39a0;
+  /*background-image:url(../img/app/supernote.png);*/
+}
+#special-sectionOverview #custom-wrap #app .content .supernote .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 260px;
+}
+#special-sectionOverview #custom-wrap #app .content .supernote .pic {
+  left: 392px;
+  top: 232px;
+}
+#special-sectionOverview #custom-wrap #app .content .buddybuzz .inner-content {
+  padding-left: 112px;
+  padding-top: 131px;
+}
+#special-sectionOverview #custom-wrap #app .content .buddybuzz .inner-content h3 {
+  color: #ff39a0;
+  /*background-image:url(../img/app/buddybuzz.png);*/
+}
+#special-sectionOverview #custom-wrap #app .content .buddybuzz .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+}
+#special-sectionOverview #custom-wrap #app .content .buddybuzz .pic {
+  left: 247px;
+  top: 84px;
+}
+#special-sectionOverview #custom-wrap #accessory {
+  color: #ff39a0;
+}
+#special-sectionOverview #custom-wrap #accessory h2 {
+  height: 44px;
+  color: #ff39a0;
+  /*background-image:url(../img/app/Applications.png);*/
+}
+#special-sectionOverview #custom-wrap #accessory .bg li.accessory {
+  background: url(../img/transcover/bg.jpg) center no-repeat #9bd0ff;
+}
+#special-sectionOverview #custom-wrap #accessory .bg li.persona {
+  background: url(../img/transcover/bg.jpg) center no-repeat #9bd0ff;
+}
+#special-sectionOverview #custom-wrap #accessory .content {
+  color: #464646;
+}
+#special-sectionOverview #custom-wrap #accessory .content .accessory .inner-content {
+  padding-left: 112px;
+  padding-top: 131px;
+}
+#special-sectionOverview #custom-wrap #accessory .content .accessory .inner-content h2 {
+  color: #464646;
+  width: 566px;
+  /*background-image:url(../img/app/accessory.png);*/
+}
+#special-sectionOverview #custom-wrap #accessory .content .accessory .inner-content h3 {
+  color: #464646;
+  word-spacing: 5px;
+  /*background-image:url(../img/app/transcover.png);*/
+}
+#special-sectionOverview #custom-wrap #accessory .content .accessory .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 566px;
+}
+#special-sectionOverview #custom-wrap #accessory .content .accessory .pic.no2 {
+  left: 143px;
+  top: 0;
+}
+#special-sectionOverview #custom-wrap #accessory .content .accessory .pic.no3 {
+  left: 575px;
+  top: -140px;
+}
+#special-sectionOverview #custom-wrap #accessory .content .accessory .pic.no4 {
+  left: 130px;
+  top: 276px;
+}
+#special-sectionOverview #custom-wrap #accessory .content .accessory .pic.no5, #special-sectionOverview #custom-wrap #accessory .content .accessory .pic.no6 {
+  left: 770px;
+  top: 263px;
+}
+#special-sectionOverview #custom-wrap #accessory .content .persona .inner-content {
+  padding-left: 112px;
+  padding-top: 131px;
+}
+#special-sectionOverview #custom-wrap #accessory .content .persona .inner-content h2 {
+  color: #464646;
+  width: 566px;
+}
+#special-sectionOverview #custom-wrap #accessory .content .persona .inner-content h3 {
+  color: #464646;
+  word-spacing: 5px;
+  /*background-image:url(../img/app/persona-cover.png);*/
+}
+#special-sectionOverview #custom-wrap #accessory .content .persona .inner-content p {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 240px;
+  width: 435px;
+}
+#special-sectionOverview #custom-wrap #accessory .content .persona .pic {
+  left: -55px;
+  top: 75px;
+}
+#special-sectionOverview #canvas {
+  left: -94px;
+  position: absolute;
+  top: 86px;
+}
+
+.ie8 #ubiquity .thin,
+.ie8 .sonicmaster {
+  overflow: hidden;
+}
+.ie8 #special-sectionOverview #loading-animate .white {
+  margin-left: 0;
+}
+
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999999;
+  overflow: hidden;
+}
+
+#cboxOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 8888888;
+}
+
+#cboxMiddleLeft, #cboxBottomLeft {
+  clear: left;
+}
+
+#cboxContent {
+  position: relative;
+}
+
+#cboxLoadedContent {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#cboxTitle {
+  margin: 0;
+}
+
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+  cursor: pointer;
+}
+
+.cboxPhoto {
+  float: left;
+  margin: auto;
+  border: 0;
+  display: block;
+  max-width: none;
+}
+
+.cboxIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
+#colorbox, #cboxContent, #cboxLoadedContent {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay {
+  background: #000;
+}
+
+#cboxContent {
+  margin-top: 20px;
+}
+
+.cboxIframe {
+  background: #fff;
+}
+
+#cboxError {
+  padding: 50px;
+  border: 1px solid #cccccc;
+}
+
+#cboxLoadedContent {
+  border: 5px solid black;
+  background: #fff;
+}
+
+#cboxTitle {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: #ccc;
+}
+
+#cboxCurrent {
+  position: absolute;
+  top: -20px;
+  right: 0px;
+  color: #ccc;
+}
+
+#cboxSlideshow {
+  position: absolute;
+  top: -20px;
+  right: 90px;
+  color: #fff;
+}
+
+#cboxPrevious {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  margin-top: -32px;
+  background: url(../img/colorbox/controls.png) no-repeat top left;
+  width: 28px;
+  height: 65px;
+  text-indent: -9999px;
+}
+
+#cboxPrevious:hover {
+  background-position: bottom left;
+}
+
+#cboxNext {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  margin-top: -32px;
+  background: url(../img/colorbox/controls.png) no-repeat top right;
+  width: 28px;
+  height: 65px;
+  text-indent: -9999px;
+}
+
+#cboxNext:hover {
+  background-position: bottom right;
+}
+
+#cboxLoadingOverlay {
+  background: #000;
+}
+
+#cboxLoadingGraphic {
+  background: url(../img/colorbox/loading.gif) no-repeat center center;
+}
+
+#cboxClose {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: block;
+  background: url(../img/colorbox/controls.png) no-repeat top center;
+  width: 38px;
+  height: 19px;
+  text-indent: -9999px;
+}
+
+#cboxClose:hover {
+  background-position: bottom center;
+}

@@ -1,0 +1,20 @@
+﻿@charset "utf-8";
+
+@mixin font-face($font-family, $file-path:"../../fonts/", $weight: normal, $style: normal ) {
+  @font-face {
+      font-family: $font-family;
+      src: url('#{$file-path}#{$font-family}.eot');
+      src: url('#{$file-path}#{$font-family}.eot?#iefix') format('embedded-opentype'),
+           url('#{$file-path}#{$font-family}.woff') format('woff'),
+           url('#{$file-path}#{$font-family}.ttf') format('truetype'),
+           url('#{$file-path}#{$font-family}.svg##{$font-family}') format('svg');
+      font-weight: $weight;
+      font-style: $style;
+  }
+}
+@mixin font-smoothing($val: antialiased) {
+  -webkit-font-smoothing: $val;
+  -moz-font-smoothing: $val;
+  -ms-font-smoothing: $val;
+  -o-font-smoothing: $val;
+}
