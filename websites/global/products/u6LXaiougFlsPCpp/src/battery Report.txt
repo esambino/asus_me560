@@ -1,0 +1,167 @@
+﻿battery.swf Movie Report
+-------------------------
+
+Metadata
+--------
+Bytes         Value
+----------    -----
+      1185    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash Professional CS6 - build 481</xmp:CreatorTool> <xmp:CreateDate>2013-08-20T01:08+08:00</xmp:CreateDate> <xmp:MetadataDate>2013-08-25T05:14:33+08:00</xmp:MetadataDate> <xmp:ModifyDate>2013-08-25T05:14:33+08:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:InstanceID>xmp.iid:9A04797A0B206811808397A9A612CE98</xmpMM:InstanceID> <xmpMM:DocumentID>xmp.did:9A04797A0B206811808397A9A612CE98</xmpMM:DocumentID> <xmpMM:OriginalDocumentID>xmp.did:ED7F11740720681188C6B62EEE1E798D</xmpMM:OriginalDocumentID> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:9704797A0B206811808397A9A612CE98</stRef:instanceID> <stRef:documentID>xmp.did:ED7F11740720681188C6B62EEE1E798D</stRef:documentID> <stRef:originalDocumentID>xmp.did:ED7F11740720681188C6B62EEE1E798D</stRef:originalDocumentID> </xmpMM:DerivedFrom> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> </rdf:RDF> 
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    -----
+      1          33110          33110    Scene 1 (AS 3.0 Classes Export Frame)
+      2         289614         322724    
+      3             25         322749    
+      4             25         322774    
+      5             25         322799    
+      6             25         322824    
+      7             25         322849    
+      8             25         322874    
+      9             25         322899    
+     10             25         322924    
+     11             25         322949    
+     12             25         322974    
+     13             25         322999    
+     14             25         323024    
+     15             25         323049    
+     16             25         323074    
+     17             20         323094    
+     18             25         323119    
+     19             25         323144    
+     20             25         323169    
+     21             25         323194    
+     22             25         323219    
+     23             25         323244    
+     24             25         323269    
+     25             25         323294    
+     26             25         323319    
+     27             25         323344    
+     28             25         323369    
+     29             25         323394    
+     30             25         323419    
+     31             25         323444    
+     32             25         323469    
+     33             25         323494    
+     34             25         323519    
+     35             25         323544    
+     36             25         323569    
+     37             25         323594    
+     38             25         323619    
+     39             25         323644    
+     40             25         323669    
+     41             25         323694    
+     42             20         323714    
+     43             25         323739    
+     44             25         323764    
+     45             25         323789    
+     46             20         323809    
+     47             25         323834    
+     48             20         323854    
+     49             20         323874    
+     50             25         323899    
+     51             20         323919    
+     52             20         323939    
+     53             20         323959    
+     54             25         323984    
+     55             20         324004    
+     56             20         324024    
+     57             20         324044    
+     58             20         324064    
+     59             20         324084    
+     60              1         324085    
+     61              1         324086    
+     62              1         324087    
+     63              1         324088    
+     64              1         324089    
+     65              1         324090    
+     66              1         324091    
+     67              1         324092    
+     68              1         324093    
+     69              1         324094    
+     70              1         324095    
+     71              1         324096    
+     72              1         324097    
+     73              1         324098    
+     74              1         324099    
+     75              1         324100    
+     76              1         324101    
+     77              1         324102    
+     78              1         324103    
+     79              1         324104    
+     80              1         324105    
+     81              1         324106    
+     82              1         324107    
+     83              1         324108    
+     84              1         324109    
+     85              1         324110    
+     86              1         324111    
+     87              1         324112    
+     88              1         324113    
+     89              1         324114    
+     90              1         324115    
+     91              1         324116    
+     92              1         324117    
+     93              1         324118    
+     94              1         324119    
+     95              1         324120    
+     96              1         324121    
+     97              1         324122    
+     98              1         324123    
+     99              1         324124    
+    100              1         324125    
+    101              1         324126    
+    102              1         324127    
+    103              1         324128    
+    104              1         324129    
+    105              1         324130    
+    106              1         324131    
+    107              1         324132    
+    108              1         324133    
+    109              1         324134    
+    110              1         324135    
+    111              1         324136    
+    112              1         324137    
+    113              1         324138    
+    114              1         324139    
+    115              1         324140    
+    116              1         324141    
+    117              1         324142    
+    118              1         324143    
+    119              1         324144    
+    120              1         324145    
+    121              1         324146    
+    122              1         324147    
+    123              1         324148    
+    124              1         324149    
+    125              1         324150    
+
+Scene      Shape Bytes    Text Bytes    ActionScript Bytes
+-------    -----------    ----------    ------------------
+Scene 1             48             0                 31856
+
+Symbol            Shape Bytes    Text Bytes    ActionScript Bytes
+--------------    -----------    ----------    ------------------
+battery_mc                 44           156                     0
+batterymask_mc             52             0                     0
+light_mc                    0             0                     0
+pad_mc                      0             0                     0
+ship_mc                     0             0                     0
+
+Font Name    Bytes         Characters
+---------    ----------    ----------
+Helvetica          1537    .0123456789
+
+ActionScript Bytes    Location
+------------------    --------
+             31856    Scene 1:Frame 1
+
+Bitmap         Compressed    Original      Compression
+-----------    ----------    ----------    -----------
+pad.png            115393       2973936    JPEG Quality=80
+battery.png           791         36984    Lossless
+ship.png            63784       1578720    JPEG Quality=80
+light.png          107388       2663520    Lossless
+
+
+
+

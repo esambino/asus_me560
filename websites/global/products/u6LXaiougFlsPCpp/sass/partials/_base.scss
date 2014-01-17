@@ -1,0 +1,63 @@
+﻿@charset "utf-8";
+
+// This file must be imported before loading html5-boilerplate
+
+// base
+$line-height: 24px !default;
+$font-color: #fff !default;
+$font-size:17px !default;
+$h2-font-size:60px !default;
+$h2-margin-bottom:18px !default;//10
+$h3-font-size:29px !default;
+$h3-margin-bottom:14px !default;
+$section-padding-top:140px !default;
+
+//text shadow
+$default-text-shadow-color: rgba(#333, .4);
+$default-text-shadow-blur: 5px;
+$default-text-shadow-h-offset: 2px;
+$default-text-shadow-v-offset: 0px;
+
+//960gs
+$ninesixty-gutter-width: 0px !default;
+
+
+$link-color: #00e !default;
+$link-hover-color: #06e !default;
+$link-visited-color: #551a8b !default;
+
+$selected-font-color: #fff !default;
+$selected-background-color: #ff5e99 !default;
+
+$invalid-background-color: #f0dddd !default;
+
+
+$ninesixty-columns: 12;
+
+
+@mixin custom-opacity($opacity) {
+  @if $legacy-support-for-ie6 or $legacy-support-for-ie7 or $legacy-support-for-ie8 {
+    filter: unquote("progid:DXImageTransform.Microsoft.Alpha(Opacity=#{round($opacity * 100)})"); 
+  }
+  opacity: $opacity;
+
+  @if $opacity == 1{
+    filter: progid:DXImageTransform.Microsoft.gradient(
+        startColorstr=#00FFFFFF, endColorstr=#00FFFFFF
+    );
+  }
+}
+
+@function em($target, $context: $base-font-size) {
+   @if $target == 0 { @return 0 }
+   @return $target / $context + 0em;
+}
+
+@function count($some-number, $another-number){
+  @return $some-number - $another-number;
+}
+
+
+
+
+

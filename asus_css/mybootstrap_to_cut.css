@@ -1,0 +1,390 @@
+.well-white{min-height:20px;padding:19px;margin-bottom:20px;background-color:#fff;border:1px solid #eee;border:1px solid rgba(0,0,0,0.05);-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 0 1px rgba(0,0,0,0.5);-moz-box-shadow:inset 0 0 1px rgba(0,0,0,0.5);box-shadow:inset 0 0 1px rgba(0,0,0,0.5)}.well-white blockquote{border-color:#ddd;border-color:rgba(0,0,0,0.15)}#product-info-zone,#product-main-image{float:right}.span2-hot-product .add-to-list,.hot-product-unit .add-to-list{display:block}.product-aside{padding-bottom:26px}.width-line-gray{background:url("../asus_img/product-header-gray-bg.jpg") no-repeat 24px 100%}
+.product-slogan{/*font-size:2.5em;*/font-size:36px; line-height: 120%; font-weight:normal;line-height:1;margin-bottom:10px; padding-bottom: 20px;}
+.color-select div{border:1px solid #ccc;display:inline-block;margin-right:1px;position:relative}.color-select div:before{background:url("../asus_img/color_pick_hover.png") no-repeat 1px 1px;content:"";display:inline-block;position:absolute;width:15px;height:15px}.item-title{font-size:28px;font-weight:normal;line-height:1.15;margin-bottom:0.5em}.review-title{font-size:18px;font-weight:normal;line-height:1.15;margin-bottom:0.5em}.gray-underline{border-bottom:1px solid #ccc}.column{padding:0 0 45px 0}img.pull-left{float:left;margin-right:0.8em;margin-bottom:0.5em;display:block}.similar-zone{list-style:none;margin-left:0}.similar-zone li{display:block;float:left}.similar-zone li a{text-decoration:none;color:#333}.similar-zone li a:hover{color:#0092FF}.similar-zone li .accessory-img{float:left;padding-right:15px}.accessory-zone{list-style:none;margin-left:0}.accessory-zone li{display:block;float:left;width:200px}.accessory-zone li a{text-decoration:none;color:#333}.accessory-zone li a:hover{color:#0092FF}.similar-zone a .product-name,.accessory-zone a .product-name{font-size:14px;line-height:1.2;margin-bottom:0.5em}#aside-button a{margin-right:10px}
+#product-quick-award li{display:inline-block;margin-right:1em;*float: left;}
+#intel_logo{width:175px}
+.hdmi-icon{margin-bottom:2em}
+.product-media-review-area,.accessories-area{position:relative}
+.product-media-review-area .article-btn,.accessories-area .article-btn{top:8px}.product-media-review-area .only-one img{float:left;margin-right:1em;margin-bottom:1em}#product-footer-zone{color:#999}#advanced-search-item{padding-bottom:20px}#advanced-search-item>li{margin-top:25px}#advanced-search-item>li>ul{margin-left:0.25em}#advanced-search-item>li>ul>li{clear:left}
+#advanced-search-item>li>ul>li label{word-wrap: break-word;word-break: break-all;cursor:pointer}
+#advanced-search-item>li>ul>li label:hover{color:#0092FF}#advanced-search-item>li .search-item-title{font-size:13px;font-weight:bold;padding-bottom:10px;padding-left:25px;padding-top:1px;display:block;color:#0092FF;background:url("../asus_img/close_round.png") no-repeat 0 0;cursor:pointer}#advanced-search-item>li .search-item-title:hover{background:url("../asus_img/close_round_hover.png") no-repeat 0 0}#advanced-search-item>li .search-item-title.open-round{background:url("../asus_img/open_round.png") no-repeat 0 0}#advanced-search-item>li .search-item-title.open-round:hover{background:url("../asus_img/open_round_hover.png") no-repeat 0 0}#product-home-aside-link{border-top:1px solid #ccc;padding-top:10px}#product-home-aside-link>li{margin-bottom:7px;padding-left:18px;background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAYAAABLcGxfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAWBJREFUeNpskT1Lw1AUhk+Tkn5Am9hBhNo5dJAspbuCTlLQyf4B/Qcurg6Ci4Kji1MQBPEnCOLSCGZJcahTWuj3VyBNW1vfU+rFoi88ueck77m559zQfD4nlmVZMSxnoAC2gAfewHUul3ukpUJcYNu2jvgplUrpqqpSJBKh2WxGvu9Tr9ej4XD4gO9HhmF8hRzHkZG8apqWTyQS9J+63S55nneazWYvJUVRjmHMR6NRmkwmC9ZuwyJm4vE4wXdeqVTSXFCQZZnG47GAtX4XE/l0OiVsCKuyK2UymTQbgiAQ/GjTVMU7Pi68G2HTNJu6rlMymfxz9vK+S8sfUqlUokaj0Q8jfsEkdriH37L3PoWZNRgMeHmWeM71er3TbrdFk9b2x0rT1WqVRqPRfbFYdCQ8Oig6dF23j8IVI0xUq9Wo1Wq9w3MiLo6FXrj5K3CAach8cZhOE/kNuMDGiwN+CzAAcz3FLflNBE4AAAAASUVORK5CYII=') no-repeat 0 3px;display:block}#product-home-aside-link>li a{text-decoration:none}
+
+#product-level3{margin-top:1em;}#product-level3 .btn-asus:first-child{width:150px}
+#product-level3>.dropdown-menu{
+	width:215px;
+	background-color:#3dbdff;
+	border-color:#0c9fea;
+	left: 0 !important;
+	/*word-break: break-all;*/
+}
+#product-level3>.dropdown-menu li a{
+	white-space: normal;
+}
+#product-level3>.dropdown-menu li a{color:#fff}#product-level3>.dropdown-menu .divider{border-color:#0c9fea;background-color:#3dbdff;margin:5px 1px}
+.category-hotproduct>a,.hot-product-unit>a{text-decoration:none;color:#333;display:block;height:305px;}
+.category-hotproduct>a:hover,.hot-product-unit>a:hover h2{color:#0092FF}
+.category-hotproduct .btn-group .dropdown-menu,.hot-product-unit .btn-group .dropdown-menu{background-color:#3dbdff;border-color:#0c9fea;min-width:140px}
+.category-hotproduct .btn-group .dropdown-menu li a,.hot-product-unit .btn-group .dropdown-menu li a{color:#fff}
+.category-hotproduct .btn-group .dropdown-menu .divider,.hot-product-unit .btn-group .dropdown-menu .divider{border-color:#0c9fea;background-color:#3dbdff;margin:5px 1px}
+.btn-group.shop-btn-group .dropdown-menu{background-color:#3dbdff;border-color:#0c9fea;min-width:140px}
+.btn-group.shop-btn-group .dropdown-menu li a{color:#fff}
+.btn-group.shop-btn-group .dropdown-menu .divider{border-color:#0c9fea;background-color:#3dbdff;margin:5px 1px}
+.overview-video .video-list li{float:left;display:block;padding-right:5px;position:relative;margin-bottom:1.3em;width:115px;margin-right:10px;height: 100px;}
+.overview-video .video-list li .video-script{overflow:hidden}
+.overview-video .video-list li .video-script h3{font-size:12px;font-weight:normal;line-height:1.1;margin-bottom:0.4em;margin-top:0.3em}
+.overview-video .video-list li p{
+	text-overflow: ellipsis;
+	width: 100px;
+	overflow: hidden;
+	white-space: nowrap;
+	color: black;
+}
+.overview-video .video-list .tvc-icon{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	background: url("../asus_img/video_play_button.png") no-repeat 0 0;
+	left: 40px;
+	top: 30px;
+}
+.overview-video .video-list li a:hover p{
+	color:#0092FF;
+}
+.overview-video .video-list li .video-script p{font-size:12px;line-height:1.1;color:#555}
+.overview-video .video-list li img{width:115px;float:left;margin-right:0.9em}
+/*.overview-video .video-list li:after{content:"";position:absolute;width:35px;height:35px;background:url("../asus_img/video_play_button.png") no-repeat 0 0;left:40px;top:19px;display:table}*/
+#product-spotlight{margin-top:-1px;border:1px solid #ccc;padding-left:12px;padding-top:1em;margin-bottom:2em;overflow:hidden;*zoom:1}
+#product-spotlight ul li{float:left;border-right:1px solid #ccc;padding:0 8px;margin:15px 0;width:120px}
+#product-spotlight ul li a{text-decoration:none}#product-spotlight ul li a>img{margin-bottom:0.5em}
+#product-spotlight ul li h3{color:#0092FF;font-weight:normal;font-size:15px;line-height:1.2;padding-bottom:0.4em}
+#product-spotlight ul li p{color:#333}#product-spotlight ul li:last-child{border-right:none}
+.select-zone{text-align:right;margin-top:-22px}.select-zone .dropdown-menu{text-align:left}
+.category-hotproduct{border:1px solid #ccc;margin-top:0.6em;margin-left:0;padding-bottom:1.2em}
+.category-hotproduct header h1{font-size:17px;line-height:2;font-weight:normal;background-color:#e4e4e4;background-image:-moz-linear-gradient(top, #e0e0e0, #ededed);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#e0e0e0), to(#ededed));background-image:-webkit-linear-gradient(top, #e0e0e0, #ededed);background-image:-o-linear-gradient(top, #e0e0e0, #ededed);background-image:linear-gradient(to bottom, #e0e0e0,#ededed);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE0E0E0', endColorstr='#FFEDEDED', GradientType=0);padding-left:24px;margin-top:0}
+.category-hotproduct h2{font-size:16px;font-weight:normal;line-height:1.15}
+.category-see-all{position: relative;margin-top:-38px;margin-right:1em;padding-left:18px;background:url("../asus_img/sub_button.png") no-repeat 0 3px;display: block;z-index: 99;}
+.highlight-spec{right:0;top:5px;position:absolute;color:#0092FF}.hot-product-row{border:1px solid #ccc;padding-left:23px;margin-top:-1px;overflow:visible;background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSI4NSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGYwZjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');background-size:100%;background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(85%, #ffffff), color-stop(100%, #f0f0f0));background-image:-webkit-linear-gradient(#ffffff 85%,#f0f0f0 100%);background-image:-moz-linear-gradient(#ffffff 85%,#f0f0f0 100%);background-image:-o-linear-gradient(#ffffff 85%,#f0f0f0 100%);background-image:linear-gradient(#ffffff 85%,#f0f0f0 100%)}.hot-product-row .hot-product-unit{padding-top:1em;padding-bottom:1em;margin-top:-1px;position:relative}
+.hot-product-row .hot-product-unit h2{
+	font-size:16px;
+	/*font-weight:normal;*/
+	line-height:1.2;
+	margin-bottom:0.5em;
+	margin-top:0.5em
+}
+.hot-product-row .hot-product-unit .productslogan{display:block}.hot-product-row .hot-product-unit .btn-group .btn-asus:first-child{width:56px}.hot-product-row .hot-product-unit .sub-btn{margin-top:0.5em;display:block;color:#0092FF}#left-nav>li{margin-top:5px}#left-nav>li a:link,#left-nav>li a:visited{text-decoration:none;color:#333;padding:5px 0;display:block}#left-nav>li a:hover{color:#0092FF}.news-quick-show h1,.news-quick h1{font-size:18px;font-weight:normal;line-height:1.4;color:#0092FF}.news-quick-show h1 a,.news-quick h1 a{text-decoration:none}.news-quick-show .quick-show-img,.news-quick .quick-show-img{margin-bottom:2em}.one-col-news img{float:left;margin-right:2em}.list_date{color:#999;display:block;font-size:12px;font-weight:normal;margin-bottom:0.2em}#news-content{margin-bottom:3em}.well-white{min-height:20px;padding:19px;margin-bottom:20px;background-color:#fff;border:1px solid #eee;border:1px solid rgba(0,0,0,0.05);-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 0 1px rgba(0,0,0,0.5);-moz-box-shadow:inset 0 0 1px rgba(0,0,0,0.5);box-shadow:inset 0 0 1px rgba(0,0,0,0.5)}.well-white blockquote{border-color:#ddd;border-color:rgba(0,0,0,0.15)}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_ab,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aab,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abb,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aaab,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abbb,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abc,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abcd{*zoom:1;width:100%}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_ab:before,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_ab:after,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aab:before,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aab:after,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abb:before,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abb:after,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aaab:before,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aaab:after,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abbb:before,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abbb:after,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abc:before,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abc:after,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abcd:before,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abcd:after{display:table;content:""}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_ab:after,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aab:after,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abb:after,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aaab:after,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abbb:after,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abc:after,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abcd:after{clear:both}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_ab>.column{width:48.7179%;display:block;float:left}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_ab>.column:first-child{margin-left:0}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_ab>.column.last{margin-left:2.5641%}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abb>.column{width:31.6239%;display:block;float:left}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abb>.column:first-child{margin-left:0}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abb>.column.last{width:65.812%;margin-left:2.5641%}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aab>.column{width:65.812%;display:block;float:left}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aab>.column:first-child{margin-left:0}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aab>.column.last{width:31.6239%;margin-left:2.5641%}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abbb>.column{width:23.0769%;display:block;float:left}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abbb>.column:first-child{margin-left:0}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abbb>.column.last{width:74.359%;margin-left:2.5641%}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aaab>.column{width:74.359%;display:block;float:left}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aaab>.column:first-child{margin-left:0}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_aaab>.column.last{width:23.0769%;margin-left:2.5641%}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abc>.column{width:31.62393%;display:block;float:left;margin-left:2.5641%}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abc>.column:first-child{margin-left:0}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abcd>.column{width:23.0769%;display:block;float:left;margin-left:2.5641%}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .columns_abcd>.column:first-child{margin-left:0}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .coverover{position:relative}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .base_map,#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .top_full_background{position:relative;z-index:-1}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview h4{font-size:1.5em;font-weight:normal;margin-bottom:1em}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview h5{color:#0090ff;font-size:1.1em;margin-bottom:0.3em}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview p{margin:0 0 48px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_1{margin-top:-20px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_2{margin-top:-40px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_3{margin-top:-60px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_4{margin-top:-80px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_5{margin-top:-100px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_6{margin-top:-120px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_7{margin-top:-140px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_8{margin-top:-160px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_9{margin-top:-180px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_10{margin-top:-200px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_11{margin-top:-220px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_12{margin-top:-240px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_13{margin-top:-260px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_14{margin-top:-280px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_15{margin-top:-300px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_16{margin-top:-320px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_17{margin-top:-340px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_18{margin-top:-360px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_19{margin-top:-380px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .up_20{margin-top:-400px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_1{margin-top:20px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_2{margin-top:40px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_3{margin-top:60px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_4{margin-top:80px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_5{margin-top:100px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_6{margin-top:120px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_7{margin-top:140px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_8{margin-top:160px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_9{margin-top:180px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_10{margin-top:200px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_11{margin-top:220px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_12{margin-top:240px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_13{margin-top:260px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_14{margin-top:280px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_15{margin-top:300px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_16{margin-top:320px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_17{margin-top:340px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_18{margin-top:360px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_19{margin-top:380px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .down_20{margin-top:400px}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview img.right{float:right;margin:1.5em 0 1.5em 1.5em}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview img.left{float:left;margin:1.5em 1.5em 1.5em 0}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview img.center{margin-left:auto;margin-right:auto;display:block}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview img.top{margin-top:0}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview img.bottom{margin-bottom:0}#ctl00_ContentPlaceHolder1_ctl00_overview1_span_overview .notice{font-size:11px;padding:0.8em;margin-bottom:1em;color:#666}
+
+#product_content_area h3 {
+background-image: none;
+font-size: 21px;
+color: #0090FF;
+margin-bottom: 0.4em;
+height: auto;
+padding: 0;
+font-weight: normal;
+}
+
+#product_similar_area h3
+{
+    color:#333;
+}
+
+#product_accessory_area h3
+{
+    color:#333;
+}
+
+#product_content_area h4.component_style {
+display: block;
+font-size: 131%;
+background: url(/images/h4_bg.gif) scroll repeat-x left top;
+padding: 6px 5px 7px 20px;
+font-weight: bolder;
+margin-bottom: 0.8em;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+/*#product_content_area>#overview>.product-head>#product-main-image>hgroup>.product-slogan{
+	padding-bottom: 10px;
+}
+.product-head >#product-main-image>hgroup>.product-slogan{
+padding-bottom: 30px;
+
+}*/
+#product-main-image>hgroup>.product-intro{
+	width: 96%;
+	margin-bottom: 10px;
+}
+#product-main-image>hgroup>#product-quick-award{
+	margin-top: 10px;
+}
+/**2012/10/19* @duncan*/
+
+#product_content_area2 h1{
+	font-size: 28px;
+	font-weight: normal;
+}
+#product_content_area2 h2 {
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 24px;
+}
+#product_content_area2 h3 {
+	font-size: 116%;
+	font-weight: bold;
+}
+.container .overview-design .span4{
+	width: 370px;
+}
+.container .overview-design .span8{
+	width: 565px;
+}
+#ResultArea #left-nav .nav-item-title{
+    font-size: 20px;
+}
+#ResultArea #left-nav .nav-item-sub{
+  /* height: 22px*/
+  line-height: 16px;
+}
+ .container .overview-design .span8 img{
+  padding-right:4px;
+}
+.add-to-list{color:#0092FF;display:inline-block;cursor:pointer;}
+.add-to-list:hover{color:#0164a2}
+#where-to-buy-banner .row-fluid .span3{
+	width:228px;
+	margin-right: -15px;
+}
+#product-level3 .dropdown-menu li a {
+	background-image: url("../asus_img/border.gif");
+	background-repeat: no-repeat;
+	background-position: 7px;
+}
+#overview .product-head #product-quick-logo{
+	margin-bottom: 10px;
+}
+#overview .product-head #product-quick-logo .unstyled {
+	float: right;
+}
+#overview .product-head #product-quick-logo .unstyled li {
+	display: block;
+	float: left;
+	padding-right: 14px;
+}
+#main-zone #product-footer-zone{
+	width:100%;
+	margin: 0 auto;
+}
+/*@end*/
+/*  where to buy*/
+#where-to-but-top{
+	margin-top:45px;
+}
+#where-to-but-top .row-fluid-line .span3{
+	border-left: 1px solid #CCC;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 17px;
+	padding-left: 16px;
+	background: url("../asus_img/gray-line.jpg") repeat-y -10px 0;
+	padding-bottom : 99999px ;
+	margin-bottom : -99999px ; 
+}
+#where-to-but-top .row-fluid-line .span6{
+	margin: 0px;
+	padding: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#where-to-but-top .row-fluid-line > .span6 {
+	width: 466px;
+}
+#where-to-but-top .row-fluid-line .span6 h4{
+	margin: 0px;
+}
+#where-to-but-top .row-fluid-line .span6 img{
+	float: left;
+	display: block;
+	margin-right: 25px;
+}
+#where-to-but-top .row-fluid-line .span3:first-child{
+	border-left: 0px solid #CCC;
+}
+.more-button{
+	font-size: 12px;
+	height:32px;
+	padding-right: 10px;
+	margin-top: 8px;
+	background: url('data:image/png;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QNsaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InV1aWQ6QUQ2NEU1MERGRTk0REQxMUE2QzNDOUVEQUM4QkUxREYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjVDRDFBMTIyM0ZDMTFFMjg2MURCN0EwQjJEMTBFRDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjVDRDFBMTEyM0ZDMTFFMjg2MURCN0EwQjJEMTBFRDAiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QTc4OUZFRTAzQ0YxMUUyODM1N0U3RDU3OTY1MzFCRiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QTc4OUZFRjAzQ0YxMUUyODM1N0U3RDU3OTY1MzFCRiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx8BBwcHDQwNGBAQGBoVERUaHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fH//AABEIAAgABwMBEQACEQEDEQH/xABWAAEAAAAAAAAAAAAAAAAAAAAHAQEAAAAAAAAAAAAAAAAAAAAAEAAABQQDAQAAAAAAAAAAAAABEQIDBCESEwUxIiMGEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwB80kDft/abiUhLsXROKDKzLXmF+RYn1jkPmi0g5GnUqE2H/9k=') no-repeat 100% 6px;
+}
+.more-float-right{
+	float: right;
+}
+#where-search-stores #where-search-bar h5{
+float: left;
+margin: 4px 10px 0 0;
+}
+#where-search-stores #where-search-bar .form-search{
+float: left;
+}
+.store-search-query {
+border: 1px solid #CCC;
+width: 465px;
+font-size: 13px;
+height: 18px;
+line-height: 18px;
+padding-top: 4px;
+padding-bottom: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+-webkit-transition: border linear,box-shadow linear;
+-webkit-transition-delay: 0.2s,0.2s;
+-moz-transition: border linear 0.2s,box-shadow linear 0.2s;
+-o-transition: border linear 0.2s,box-shadow linear 0.2s;
+transition: border linear 0.2s,box-shadow linear 0.2s;
+}
+.store-search-query {
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+-ms-border-radius: 0;
+-o-border-radius: 0;
+border-radius: 0 !important;
+padding-right: 30px;
+padding-left: 10px;
+}
+#where-search-stores #store-search-btn {
+background: url("http://athena.asus.com../asus_img/search_btn.png") no-repeat 0 0px;
+cursor: pointer;
+height: 23px;
+width: 25px;
+margin-top: -10px;
+margin-left: -33px;
+}
+#where-search-stores,#product-review-area {
+	padding: 0 10px;
+}
+#where-search-stores #where-map-place ul li a,#where-search-stores #where-map-place ul li{
+	padding-left: 26px;
+	padding-top: 4px;
+	font-size: 14px;
+	/*height:32px;*/
+	background: url('data:image/jpg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QNsaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InV1aWQ6QUQ2NEU1MERGRTk0REQxMUE2QzNDOUVEQUM4QkUxREYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NUVBQzI2RDIyM0Y5MTFFMkEwQzhDMzg5MUEwOEZBREYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NUVBQzI2RDEyM0Y5MTFFMkEwQzhDMzg5MUEwOEZBREYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QTc4OUZFRTAzQ0YxMUUyODM1N0U3RDU3OTY1MzFCRiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QTc4OUZFRjAzQ0YxMUUyODM1N0U3RDU3OTY1MzFCRiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx8BBwcHDQwNGBAQGBoVERUaHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fH//AABEIAB4AFwMBEQACEQEDEQH/xAB1AAEBAQEAAAAAAAAAAAAAAAAHBgAIAQACAgMAAAAAAAAAAAAAAAAEBQABAgMGEAACAgEDAgcBAQEAAAAAAAABAgMEBQAREjEGIUFRIhMUB2FCFREAAgIBAgYDAAAAAAAAAAAAAAECAxESBCFBoSITBTFhcf/aAAwDAQACEQMRAD8A6H717zpdrY+OeWJrd20/xUKMZCtK4HJiWPgiIo3dz0/pIB3UUStlpj8mFk1FZYf0/wBl7rgsibLYunPjt95YqDTCzGnmyfL7Jio/z7CfL000t9JZGOU02Cx3sW8NYFNc7iWwf/dFlDifrG79sb8PrhPkMnrtw8dJsccBuQ6/a8daSxh89xLY6otipcfqITZaJo5W9ELRcGby3Hlpp6i+NdvdzWAXdwcocOQQYvAy4TL5XLWMjYuR5CRTDSYFuDF9kjjUElnZiEQAfzXQqpUudkpNxfQXuWtKKXEesT21mKX49JgXgWTLvirUYqchx+exHIywcumytJw36a4/yLyauWrPUb6e3H0WlqrXt1ZqtmNZq06NFNE43V0ccWVgeoIOtJmC35j2wD+gXqVkmeHs8yRxGTxLSzsyVJG333Zaqt4+p3003e9dlMI5/QWqlRnJjdpWFGPTUISva9ftSPu7u2XE2pJszNYqHPwOGCQyrWCwiMlFB5R+47M3j6dNWykVWqLP/9k=') no-repeat 0 10px;
+	display: block;
+}
+#where-to-buy-banner ul{
+	margin-bottom: 0px;
+}
+#main-zone > .container h1.page-title {
+
+padding-top: 3px;
+}
+#sectionOverview .top_full_background{
+	margin-left: 0px !important;
+	margin-top: -40px;
+}
+#product-footer-zone div:first-child{
+	margin-left: 0px;
+	margin-right: 24px;
+}
+#product-footer-zone #all-product-line-footer{
+	margin-left: 0px;
+}
+#product_accessory_area ul.accessory-zone{
+	width:600px;
+}
+#spotlight_area{
+	overflow: hidden;
+}
+#product-spotlight ul li {
+padding-bottom: 99999px;
+margin-bottom: -99999px;
+}
+.newstable {
+border-width: 1px;
+border-spacing: 0px;
+border-style: solid;
+border-color: #CCC;
+border-collapse: collapse;
+}
+.newstable td {
+border-width: 1px;
+padding: 3px;
+border-style: solid;
+border-color: #CCC;
+}
+.product-forum ul li img{
+float: left;
+margin-right: 15px;
+border:1px solid #ccc;
+}
+.product-forum ul li h3{
+	line-height: 120%;
+	color: black;
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold;
+}
+.product-forum ul li p{
+	color: #000000;
+}
+.product-forum ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.product-forum ul li{
+	height: 102px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.product-forum ul li a:hover h3{
+ color: #0092ff;
+}
+.product-forum ul li:last-child{
+	border-bottom: 0px solid #ccc;
+}
+/*----- entry  ------*/
+#entry-area{
+	min-height: 550px;
+	background: url('../asus_img/entrybg.jpg') no-repeat 50% 50%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	margin-bottom: 60px;
+	margin-top: 40px;
+}
+#entry-area h3.item-title{
+	font-size: 18px;
+}
+#entry-area ul{
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 30px;
+
+}
+#entry-area ul li {
+	width: 20%;
+	float: left;
+	list-style: none;
+	margin: 6px 0px;
+}
+#entry-area ul li a{
+	color: #000000;
+	padding-left: 16px;
+	background: url('data:image/jpg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QNpaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InV1aWQ6QUQ2NEU1MERGRTk0REQxMUE2QzNDOUVEQUM4QkUxREYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTdCQ0VCRTU0NEQ1MTFFMjgxNThDMjg3MDY1MjdGNzkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTdCQ0VCRTQ0NEQ1MTFFMjgxNThDMjg3MDY1MjdGNzkiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyNDRDNjZCMzhFMEVFMjExODA3RUI0QTYwQ0ZCODgzMiIgc3RSZWY6ZG9jdW1lbnRJRD0idXVpZDpBRDY0RTUwREZFOTRERDExQTZDM0M5RURBQzhCRTFERiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx8BBwcHDQwNGBAQGBoVERUaHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fH//AABEIAAwADAMBEQACEQEDEQH/xAB6AAEBAAAAAAAAAAAAAAAAAAAGAwEBAQEAAAAAAAAAAAAAAAAABQIGEAAABAMFBgcAAAAAAAAAAAABEQITEgMFADEVBhYhUYEyBBciQmKSQxQlEQAAAwYEBgMAAAAAAAAAAAABEQMAwRITBBQhMUGBUaHRAiJCYbHh/9oADAMBAAIRAxEAPwB9m7NmY52ZqzJCsLpEmkJUro+nSpSAnKRMQgEEjapUwFisDAQ3kkxDaUFCj2oJjBMFTMeGAie2X7g2Jr69buXUCZLBPIOOIAXyefQMWZ6trfazUMAYozzQgRvMuw3cvjuLhYawSvpPobjJzNX6thO9yeRva2bO2WLStRfWxIklE5EXlda2EV0doob2WMmKDbkbmuvsZgToY9+ZPZT+Zhvw4Yz6WGIfZBDwKxnnHrGe59WU8INIC2L6Jv/Z') no-repeat 0 3px;
+}
+#entry-area ul li a:hover{
+	color: #0092ff;
+}
+#entryModal .modal-body p{
+	background: url('../asus_img/entry-icon.png') no-repeat 0px 0px;
+	font-size: 16px;
+	line-height: 40px;
+	padding-left: 40px;
+	margin: 0 auto;
+}
+/*----- entry @ end  -----*/
